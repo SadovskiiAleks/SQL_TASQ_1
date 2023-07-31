@@ -2,3 +2,4 @@
 -- у которых поле age выше 27 лет. Отсортируйте получаемые результаты по убыванию возраста.
 select * from persons
 where age > 27
+order by age desc  
